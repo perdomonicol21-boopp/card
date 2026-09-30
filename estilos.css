@@ -1,0 +1,60 @@
+/* 1. SELECTOR DE ETIQUETA: reglas globales  */
+body{
+    margin-top: 50px;
+    font-family: sans-serif;
+    background-color: #f780ac;
+    color: rgb(247, 244, 244);
+    text-align: center;
+
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+/* 2. Selectores de CLASE */
+.boton-enlace{
+    display: block;
+    background-color: #0e0d0e;
+    color: rgb(241, 90, 247);
+    padding: 12px 20px;
+    margin: 10px auto;
+    border-radius: 8px;
+    text-decoration: none;
+    width: 240px;
+}
+
+/* 3. Selectores de  */
+
+#enlace-destacado{
+    background-color: rgb(238, 153, 227);
+    color: #0f172a;
+    font-weight: bold;
+
+}
+
+/* 4.Selectores de peril */
+.perfil{
+    max-width: 450px;
+    margin: 50px auto;
+    background-color: purple;
+    border-radius: 16px;
+    padding:  24px;
+    box-decoration-break:  8px rgba (o,o,0,o,3);
+    
+}
+.links{
+    margin-top: 20px;
+}
+
+/* ------------------- */
+/* .perfil{
+max-width: 350px; margin: 50px auto;
+background-color: #082657; border-radius: 16px; padding:24px;
+box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+.links{
+margin-top: 20px;
+} */
